@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+.header {
+  background-color: #1f2937;
+}
+.header-container {
+  padding: 15px 0;
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.logo {
+  font-size: 2.4rem;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.menu-container {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.menu-container .link {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #e5e7eb;
+  text-transform: capitalize;
+}
