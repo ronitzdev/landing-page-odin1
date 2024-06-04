@@ -38,3 +38,7 @@ html {
   color: #e5e7eb;
   text-transform: capitalize;
 }
+
+.menu-container .link:hover {
+  color: #4dcc4d;
+}
