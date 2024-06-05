@@ -63,7 +63,7 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  padding: 10px 0;
+  padding: 20px 0;
 }
 
 .hero-texts {
@@ -163,7 +163,7 @@ body {
 }
 
 .sentence-container p {
-  font-size: 3.6rem;
+  font-size: 3rem;
   text-align: center;
   color: #1f3927;
   font-weight: lighter;
@@ -175,4 +175,42 @@ body {
   right: 0;
   bottom: -40px;
   font-weight: 300;
+  font-size: 3rem;
+}
+
+/* section cta */
+.call-to-action {
+  padding: 100px 0;
+}
+.cta-container {
+  margin: 0 auto;
+  border-radius: 10px;
+  width: 80%;
+  padding: 50px 150px;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.8rem;
+  color: white;
+}
+
+.cta-texts {
+  width: 70%;
+  line-height: 1.5;
+}
+.cta-text1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.cta-text1 {
+  font-size: 2rem;
+}
+.sign-button {
+  background-color: #3882f6;
+  padding: 10px 40px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-weight: bold;
 }
