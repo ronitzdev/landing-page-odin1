@@ -148,3 +148,31 @@ body {
 .card-text {
   line-height: 1.2;
 }
+
+/* section sentence */
+
+.sentence {
+  background-color: #e5e7eb;
+  padding: 70px 0;
+}
+
+.sentence-container {
+  width: 70%;
+  margin: 40px auto;
+  position: relative;
+}
+
+.sentence-container p {
+  font-size: 3.6rem;
+  text-align: center;
+  color: #1f3927;
+  font-weight: lighter;
+}
+
+.sentence-container span {
+  position: absolute;
+  display: inline-block;
+  right: 0;
+  bottom: -40px;
+  font-weight: 300;
+}
